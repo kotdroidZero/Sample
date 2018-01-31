@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.error_found.pk.sample.ViewsActivity">
+    <Button
+        android:id="@+id/btn_map"
+        android:text="open map"
+        android:autoLink="map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_below="@+id/btn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_android"
+            android:text="Android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_ios"
+            android:text="IOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_node"
+            android:text="Node"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_angular"
+            android:text="Angular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_below="@+id/rg"
+        android:text="set Time"
+        android:id="@+id/btn_settime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/selector"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/rg"
+        android:text="set Date"
+        android:id="@+id/btn_setdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:background="@drawable/selector"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_below="@id/btn_setdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:cropToPadding="true"
+        android:padding="5dp"
+        android:src="@drawable/abcdef"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btn_setdate"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <EditText
+        android:hint="enter the course name"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/btn_settime"
+        android:id="@+id/et_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactv"
+        android:completionHint="@string/app_name"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </MultiAutoCompleteTextView>
+</RelativeLayout>

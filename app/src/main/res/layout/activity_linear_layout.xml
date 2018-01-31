@@ -4,16 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="horizontal"
+    android:fitsSystemWindows="true"
+    android:hapticFeedbackEnabled="true"
     android:showDividers="end"
     android:divider="@drawable/drawable_divider"
     android:layout_height="match_parent"
     tools:context="com.error_found.pk.sample.LinearLayoutActivity">
 <Button
+    android:rotation="45"
     android:text="One"
+    android:translationZ="45dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
     <Button
-        android:text="two"
+        android:text="table layout"
+        android:id="@+id/btn_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
@@ -24,4 +29,9 @@
         android:text="four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/frame_l"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 </LinearLayout>

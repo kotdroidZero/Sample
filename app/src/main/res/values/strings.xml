@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Sample</string>
+    <string-array name="countries">
+        <item>Arab</item>
+        <item>India</item>
+        <item>Alaska</item>
+        <item>South Africa</item>
+        <item>Egypt</item>
+        <item>California</item>
+        <item>S Lanka</item>
+        <item>BDesh</item>
+        <item>China</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Alaska</item>
+        <item>South Africa</item>
+        <item>Egypt</item>
+        <item>California</item>
+        <item>S Lanka</item>
+        <item>BDesh</item>
+        <item>China</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Alaska</item>
+        <item>South Africa</item>
+        <item>Egypt</item>
+        <item>California</item>
+        <item>S Lanka</item>
+        <item>BDesh</item>
+        <item>China</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Alaska</item>
+        <item>South Africa</item>
+        <item>Egypt</item>
+        <item>California</item>
+        <item>S Lanka</item>
+        <item>BDesh</item>
+        <item>China</item>
+        <item>Nepal</item>
+    </string-array>
 </resources>

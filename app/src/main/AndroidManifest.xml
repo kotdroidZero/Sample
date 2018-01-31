@@ -12,6 +12,11 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".LinearLayoutActivity">
+        </activity>
+        <activity android:name=".ViewsActivity">
+
+        </activity>
+        <activity android:name=".Views2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

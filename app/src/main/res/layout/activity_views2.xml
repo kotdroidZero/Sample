@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.error_found.pk.sample.Views2Activity">
+
+    <ProgressBar
+        android:id="@+id/pb_indeterminate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/determinate"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_indeterminate"
+        android:indeterminate="true"
+        android:progress="2"/>
+
+    <SeekBar
+
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/determinate"
+        android:scrollbarThumbVertical="@drawable/focused"
+        android:thumb="@mipmap/ic_launcher"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekbar">
+    </Spinner>
+    <Switch
+        android:textOn="turn off"
+        android:textOff="turn on"
+        android:thumb="@mipmap/ic_launcher_round"
+        android:text="turn on wi-fi"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_start"
+        android:text="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextSwitcher
+
+        android:id="@+id/tswitcher"
+        android:layout_below="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TextSwitcher>
+    <ToggleButton
+        android:layout_below="@+id/tswitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

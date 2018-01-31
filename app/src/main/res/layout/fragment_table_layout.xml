@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+
+    android:stretchColumns="*"
+    android:layout_height="wrap_content">
+<TableRow
+    >
+    <TextView
+        android:text="Name"
+
+        />
+    <EditText
+        android:layout_span="9"
+        android:hint="enter name here"
+        />
+</TableRow>
+    <TableRow
+        >
+        <TextView
+            android:text="Registration"
+
+            />
+        <EditText
+            android:hint="enter registration no here"
+            />
+
+    </TableRow>
+    <TableRow
+        >
+        <TextView
+            android:text="Department"
+
+            />
+        <EditText
+            android:hint="enter department here"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
