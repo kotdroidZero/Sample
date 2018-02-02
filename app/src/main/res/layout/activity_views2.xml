@@ -6,7 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.error_found.pk.sample.Views2Activity">
 
+    <android.support.v7.widget.Toolbar
+        android:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:minHeight="?actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </android.support.v7.widget.Toolbar>
     <ProgressBar
+        android:layout_below="@+id/toolbar"
         android:id="@+id/pb_indeterminate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -30,7 +45,7 @@
         android:thumb="@mipmap/ic_launcher"/>
 
     <Spinner
-        android:id="@+id/spinner"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/seekbar">
@@ -45,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
+        android:layout_below="@+id/toolbar"
         android:id="@+id/btn_start"
         android:text="start"
         android:layout_width="wrap_content"

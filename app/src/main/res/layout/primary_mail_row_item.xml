@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/eight_dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+        android:gravity="center"
+        android:text="G"
+        android:background="@drawable/ringbg"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"/>
+    <LinearLayout
+        android:layout_marginEnd="@dimen/eight_dp"
+        android:layout_marginStart="@dimen/eight_dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="60dp">
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_weight="1"
+            android:text="Google"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_weight="1"
+            android:text="Critical Security Alert"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_weight="1"
+            android:text="Check your google account security and bla bla bla..."
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group >
+    <item android:id="@+id/nav_allinbox"
+          android:icon="@drawable/allmails"
+          android:title="All inboxes"
+          />
+</group>
+
+<item
+    android:title="Fast links"
+    android:id="@+id/nav_two">
+
+<menu >
+
+            <item android:title="Primary"
+                  android:icon="@drawable/primary"
+                  android:id="@+id/nav_primary"/>
+            <item android:title="Social"
+                  android:icon="@drawable/social"
+                  android:id="@+id/nav_social"/>
+            <item android:title="Promotions"
+                  android:icon="@drawable/promotions"
+                  android:id="@+id/nav_promotions"/>
+</menu>
+</item>
+    <item android:title="All labels">
+        <menu>
+            <item android:title="Starred"
+                  android:icon="@drawable/ic_star_black_24dp"
+                  android:id="@+id/nav_starred"/>
+            <item android:title="Important"
+                  android:icon="@drawable/important"
+                  android:id="@+id/nav_important"/>
+            <item android:title="Sent"
+                  android:icon="@drawable/ic_sent_black_24dp"
+                  android:id="@+id/nav_sent"/>
+            <item android:title="Outbox"
+                  android:icon="@drawable/outbox"
+                  android:id="@+id/nav_outbox"/>
+            <item android:title="Drafts"
+                  android:icon="@drawable/draft"
+                  android:id="@+id/nav_drafts"/>
+            <item android:title="All mail"
+                  android:icon="@drawable/all_mail_box"
+                  android:id="@+id/nav_all_mail"/>
+            <item android:title="Spam"
+                  android:icon="@drawable/spam"
+                  android:id="@+id/nav_spam"/>
+            <item android:title="Trash"
+                  android:icon="@drawable/trash"
+                  android:id="@+id/nav_trash"/>
+        </menu>
+    </item>
+</menu>

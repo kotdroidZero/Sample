@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/screensaver"
+      android:title="Screen Saver"
+      />
+    <item android:title="Setting"
+          android:id="@+id/setting"/>
+    <item android:id="@+id/send_feedback"
+          android:title="Send FeedBack"/>
+    <item android:title="Help"
+          android:id="@+id/help"/>
+</menu>

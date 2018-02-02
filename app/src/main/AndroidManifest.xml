@@ -9,14 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".NewDesigns.ContactUsActivity">
+        </activity>
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".LinearLayoutActivity">
         </activity>
         <activity android:name=".ViewsActivity">
-
         </activity>
         <activity android:name=".Views2Activity">
+        </activity>
+        <activity android:name=".TabActivity">
+        </activity>
+        <activity android:name=".NewDesigns.SellYourStuffActivity">
+        </activity>
+        <activity android:name=".NewDesigns.GmailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

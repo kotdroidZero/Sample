@@ -1,5 +1,28 @@
 <resources>
     <string name="app_name">Sample</string>
+    <string name="Contact_us">CONTACT US</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="and_get_the_updates_and_never_miss_a_deal">And get the updates and never miss a deal</string>
+    <string name="say_hello">Say Hello !</string>
+    <string name="loren_ipsum_dummy">Loren ipsum is simply dummy text</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="send">send</string>
+    <string name="sell_your_stuff">Sell Your Stuff</string>
+    <string name="what_are_you_selling">What are you selling ?</string>
+    <string name="this_is_your_featured_photo_make_sure_it_s_a_good_one">This is your featured photo.Make sure it\'s a good one !</string>
+    <string name="take_a_photo">Take a Photo</string>
+    <string name="upload_from_gallery">Upload From Gallery</string>
+    <string name="or">OR</string>
+    <string name="details_of_the_ad">Details of the Ad</string>
+    <string name="your_title_should_be_attractive">Your title should be attractive</string>
+    <string name="category">Category</string>
+    <string name="price_of_the_item">Price of the Item</string>
+    <string name="your_price_should_be_negotiable">Your price should be negotiable</string>
+    <string name="naira">NAIRA</string>
+    <string name="price">Price</string>
+    <string name="post">Post</string>
     <string-array name="countries">
         <item>Arab</item>
         <item>India</item>
@@ -39,4 +62,9 @@
         <item>China</item>
         <item>Nepal</item>
     </string-array>
+    <string name="font_bold">fonts/ProximaNovaBold.otf</string>
+    <string name="font_semibold">fonts/ProximaNovaCond_Semibold.otf</string>
+    <string name="font_regular">fonts/ProximaNovaRegular.otf</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
 </resources>
