@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 
+import com.error_found.pk.sample.fragments.AlarmFragment;
+import com.error_found.pk.sample.fragments.ClockFragment;
+import com.error_found.pk.sample.fragments.TimerFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 

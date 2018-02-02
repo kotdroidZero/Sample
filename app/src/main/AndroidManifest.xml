@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.error_found.pk.sample">
+    package="com.error_found.pk.sample">
 
     <application
         android:allowBackup="true"
@@ -9,26 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewDesigns.ContactUsActivity">
-        </activity>
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".LinearLayoutActivity">
-        </activity>
-        <activity android:name=".ViewsActivity">
-        </activity>
-        <activity android:name=".Views2Activity">
-        </activity>
-        <activity android:name=".TabActivity">
-        </activity>
-        <activity android:name=".NewDesigns.SellYourStuffActivity">
-        </activity>
+        <activity android:name=".NewDesigns.ContactUsActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".LinearLayoutActivity"></activity>
+        <activity android:name=".ViewsActivity"></activity>
+        <activity android:name=".Views2Activity"></activity>
+        <activity android:name=".TabActivity"></activity>
+        <activity android:name=".NewDesigns.SellYourStuffActivity"></activity>
         <activity android:name=".NewDesigns.GmailActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+        </activity>
+        <activity android:name=".NewDesigns.SampleFragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
