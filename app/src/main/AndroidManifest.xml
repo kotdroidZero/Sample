@@ -14,17 +14,19 @@
         <activity android:name=".LinearLayoutActivity"></activity>
         <activity android:name=".ViewsActivity"></activity>
         <activity android:name=".Views2Activity"></activity>
-        <activity android:name=".TabActivity"></activity>
-        <activity android:name=".NewDesigns.SellYourStuffActivity"></activity>
-        <activity android:name=".NewDesigns.GmailActivity">
-
-        </activity>
-        <activity android:name=".NewDesigns.SampleFragmentActivity">
+        <activity android:name=".TabActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".NewDesigns.SellYourStuffActivity"></activity>
+        <activity android:name=".NewDesigns.GmailActivity">
+
+        </activity>
+        <activity android:name=".NewDesigns.SampleFragmentActivity">
+
 
         </activity>
     </application>
