@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.error_found.pk.sample.R;
+import com.error_found.pk.sample.utils.UserSharedPrefs;
 
 /**
  * Created by user on 31/1/18.
@@ -15,9 +16,19 @@ import com.error_found.pk.sample.R;
 
 public class AlarmFragment extends Fragment {
 
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_alarm,container,false);
+        return inflater.inflate(R.layout.fragment_alarm, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        UserSharedPrefs userSharedPrefs=new UserSharedPrefs(getActivity());
+        userSharedPrefs.saveInPrefs("Antonio Pablo");
+
     }
 }

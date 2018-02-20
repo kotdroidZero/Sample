@@ -1,6 +1,7 @@
 package com.error_found.pk.sample;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -28,10 +29,12 @@ public class TabActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tab);
         init();
         mTabLayout.setupWithViewPager(mViewPager);
+
         mClockAdapter = new ClockAdapter(mTabList, getFragmentManager());
         mViewPager.setAdapter(mClockAdapter);
         mViewPager.setPageTransformer(true,new DepthPageTransformer());
         settingTabIcon();
+        mViewPager.setOffscreenPageLimit(1);
 
 
     }
